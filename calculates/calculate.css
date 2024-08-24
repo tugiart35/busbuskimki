@@ -1,0 +1,229 @@
+input#dobKisiselYil {
+    appearance: none; /* Varsayılan tarayıcı stilini kaldır */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f8f9fa; /* Açık gri arka plan rengi */
+    border: 1px solid #ced4da; /* Açık gri kenar çizgisi */
+    padding: 10px 15px; /* İç boşluk */
+    border-radius: 5px; /* Kenarları yuvarlat */
+    font-family: 'Arial', sans-serif; /* Yazı tipi */
+    font-size: 16px; /* Yazı boyutu */
+    color: #495057; /* Koyu gri yazı rengi */
+    outline: none; /* Odaklandığında kenar çizgisi */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Geçiş animasyonları */
+}
+
+
+
+/* Genişlik kontrolü */
+input#dobKisiselYil {
+    width: 100%; /* Genişlik */
+    max-width: 300px; /* Maksimum genişlik */
+    box-sizing: border-box; /* Kenar boşluklarını genişlik hesabına kat */
+}
+input#birthdate1 {
+    appearance: none; /* Varsayılan tarayıcı stilini kaldır */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f8f9fa; /* Açık gri arka plan rengi */
+    border: 1px solid #ced4da; /* Açık gri kenar çizgisi */
+    padding: 10px 15px; /* İç boşluk */
+    border-radius: 5px; /* Kenarları yuvarlat */
+    font-family: 'Arial', sans-serif; /* Yazı tipi */
+    font-size: 16px; /* Yazı boyutu */
+    color: #495057; /* Koyu gri yazı rengi */
+    outline: none; /* Odaklandığında kenar çizgisi */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Geçiş animasyonları */
+}
+
+
+
+/* Genişlik kontrolü */
+input#birthdate1 {
+    width: 100%; /* Genişlik */
+    max-width: 300px; /* Maksimum genişlik */
+    box-sizing: border-box; /* Kenar boşluklarını genişlik hesabına kat */
+}
+
+
+
+    input#dobKisiselAy {
+ 
+        appearance: none; /* Varsayılan tarayıcı stilini kaldır */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-color: #f8f9fa; /* Açık gri arka plan rengi */
+        border: 1px solid #ced4da; /* Açık gri kenar çizgisi */
+        padding: 10px 15px; /* İç boşluk */
+        border-radius: 5px; /* Kenarları yuvarlat */
+        font-family: 'Arial', sans-serif; /* Yazı tipi */
+        font-size: 16px; /* Yazı boyutu */
+        color: #495057; /* Koyu gri yazı rengi */
+        outline: none; /* Odaklandığında kenar çizgisi */
+        transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Geçiş animasyonları */
+    }
+    
+    input#dobKisiselAy {
+        appearance: none; /* Varsayılan tarayıcı stilini kaldır */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-color: #f8f9fa; /* Açık gri arka plan rengi */
+        border: 1px solid #ced4da; /* Açık gri kenar çizgisi */
+        padding: 10px 15px; /* İç boşluk */
+        border-radius: 5px; /* Kenarları yuvarlat */
+        font-family: 'Arial', sans-serif; /* Yazı tipi */
+        font-size: 16px; /* Yazı boyutu */
+        color: #495057; /* Koyu gri yazı rengi */
+        outline: none; /* Odaklandığında kenar çizgisi */
+        transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Geçiş animasyonları */
+    }
+    
+    /* Odaklandığında kenar çizgisi ve gölge efekti */
+    input#dobKisiselAy:focus {
+        border-color: #007BFF; /* Mavi kenar çizgisi */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Mavi gölge efekti */
+    }
+    
+    /* Tarih seçici ok işaretini özelleştir (tarayıcı desteği sınırlı olabilir) */
+    input#dobKisiselAy::-webkit-calendar-picker-indicator {
+        color: transparent;
+        opacity: 0.7;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    
+    /* Genişlik kontrolü */
+    input#dobKisiselAy {
+        width: 100%; /* Genişlik */
+        max-width: 300px; /* Maksimum genişlik */
+        box-sizing: border-box; /* Kenar boşluklarını genişlik hesabına kat */
+    }
+    
+    .kisiselAyTable {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 18px;
+        text-align: center;
+        background-color: #1c1c1c; /* Arka plan rengi */
+        color: white; /* Yazı rengi */
+    }
+    
+    
+    
+    .kisiselAyTable tr {
+        border-bottom: 1px solid #FA5300; /* Satır alt çizgileri turuncu */
+            border-top: 1px solid #FA5300; /* Kendi çizgi stilinizi ekler */
+           
+        }
+    
+
+
+input,
+select {
+  padding: 5px 4px 3px 8px;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: sans-serif;
+  background-color: white;
+  border: solid grey 1px;
+  border-radius: 5px;
+}
+.name > input {
+    width: 100%;
+  }
+  .inputForm {
+    z-index: 300;
+    min-height: 190px;
+    
+  }
+
+#daykisiselyil,  select {
+    padding: 5px 4px 3px 8px;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: sans-serif;
+    background-color: white;
+    border: solid grey 1px;
+    border-radius: 5px;
+    width: 100%;
+    
+  }
+
+  #day,  select {
+    padding: 5px 4px 3px 8px;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: sans-serif;
+    background-color: black;
+    border: solid grey 1px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 0px;  /* Üst boşluk */
+    margin-bottom: 5px;  /* Alt boşluk */
+  }
+  #month,  select {
+    padding: 5px 4px 3px 8px;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: sans-serif;
+    background-color: black;
+    border: solid grey 1px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 0px;  /* Üst boşluk */
+    margin-bottom: 5px;  /* Alt boşluk */
+  }
+  #year,  select {
+    padding: 5px 4px 3px 8px;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: sans-serif;
+    background-color: black;
+    border: solid grey 1px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 0px;  /* Üst boşluk */
+    margin-bottom: 5px;  /* Alt boşluk */
+  }
+  .custom-hr {
+    margin-top: 10px;  /* Üst boşluk */
+    margin-bottom: 10px;  /* Alt boşluk */
+    border: none; /* Varsayılan çizgi stilini kaldırır */
+    border-top: 1px solid #FA5300; /* Kendi çizgi stilinizi ekler */
+}
+
+.calculate-aciklama {
+    margin-top: 20px;  /* Üst boşluk */
+    margin-bottom: 10px;  /* Alt boşluk */
+}
+
+.highlighted-text {
+    color: white;
+    font-weight: bold;
+}
+
+.title-text {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+.description-title {
+    font-weight: bold;
+}
+
+
+input, label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+button, label{
+
+    margin-top: 10px;
+}

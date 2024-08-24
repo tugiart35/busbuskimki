@@ -1,0 +1,46 @@
+{
+    "1": {
+        "title": "Liderlik ve Bağımsızlık",
+        "description": "Bu kişiler, güçlü ve bağımsız bir duruş sergilerler. Kendilerini lider olarak görürler ve başkalarının onları böyle algılamasını beklerler. Yaratıcı ve kararlı yapıları ile zorlukların üstesinden gelmeyi bilirler."
+    },
+    "2": {
+        "title": "Uyum ve İşbirliği",
+        "description": "Bu kişiler genellikle uyumlu ve naziktirler. Dış dünyaya karşı daha sakin ve işbirlikçi bir duruş sergilerler. Duygusal zekaları yüksek olup, empati yetenekleri güçlüdür."
+    },
+    "3": {
+        "title": "İfade ve Yaratıcılık",
+        "description": "Bu kişiler dışa dönük, yaratıcı ve sosyal insanlardır. Çevrelerine neşe ve pozitif enerji yayarlar. Dış dünyada dikkat çekici ve etkileyici bir duruşları vardır."
+    },
+    "4": {
+        "title": "Disiplin ve Kararlılık",
+        "description": "Bu kişiler dış dünyaya karşı sorumlu, disiplinli ve çalışkan bir imaj sergilerler. Güvenilir ve kararlı yapıları, onları etrafındaki insanlar için güvenilir bir dayanak haline getirir."
+    },
+    "5": {
+        "title": "Özgürlük ve Değişim",
+        "description": "Bu kişiler dışa dönük, meraklı ve özgür ruhlu kişilerdir. Yeni deneyimlere açık olup, değişimi kucaklarlar. Maceracı ruhları sayesinde çevrelerine enerji yayarlar."
+    },
+    "6": {
+        "title": "Sorumluluk ve Aile",
+        "description": "Bu kişiler dış dünyaya karşı koruyucu ve sorumluluk sahibi bir duruş sergilerler. Aile ve topluluk onlar için ön plandadır ve genellikle başkalarına yardım etme eğilimindedirler."
+    },
+    "7": {
+        "title": "Derinlik ve Bilgelik",
+        "description": "Bu kişiler dış dünyaya karşı daha içe dönük, gizemli ve derin düşünen bir imaj çizerler. Bilgiyi ve düşünceyi önemserler, dışarıya karşı daha mesafeli durabilirler."
+    },
+    "8": {
+        "title": "Güç ve Başarı",
+        "description": "Bu kişiler dış dünyaya güçlü, kararlı ve başarı odaklı bir imaj yansıtırlar. İş dünyasında ve finansal konularda başarılı olmayı hedeflerler. Güçlü bir lider olarak görünürler."
+    },
+    "9": {
+        "title": "Evrensel Sevgi ve Yardımseverlik",
+        "description": "Bu kişiler dış dünyaya karşı evrensel sevgi ve yardımsever bir imaj yansıtırlar. Topluma hizmet etmeyi önemserler ve başkalarına yardım etmeye yönelik içsel bir dürtü hissederler."
+    },
+    "11": {
+        "title": "Spiritüel Bilgelik ve Rehberlik",
+        "description": "Bu kişiler dış dünyaya karşı spiritüel bilgelik ve rehberlik sağlayan bir duruş sergilerler. İçlerindeki derin inançlar ve yüksek bilinç seviyeleri ile çevrelerindeki insanlara ilham verirler."
+    },
+    "22": {
+        "title": "Büyük Planlar ve Uygulamalar",
+        "description": "Bu kişiler dış dünyaya karşı büyük projeler ve yapıcı fikirler getiren bir imaj çizerler. Yüksek sorumluluk alma kapasitesine sahiptirler ve maddi dünyada büyük etkiler yaratmayı hedeflerler."
+    }
+}

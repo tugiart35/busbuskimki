@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Büşbüşkimki | Hesaplamalar</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="Busbuskimki ile numeroloji rehberliği alın."
+    />
+    <meta
+      name="keywords"
+      content="tarot okuyucusu, numeroloji uzmanı, kahve falı, su falı, Katina aşk açılımı, sinerji analizi, ruhsal rehberlik, online tarot, online fal, kişisel gelişim, spiritüel danışmanlık, Büşbüşkimki, Türkiye, ilişki rehberliği, yaşam koçluğu"
+    />
+    <link rel="icon" href="images/pp.jpg" type="image/x-icon" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Busbuskimki" />
+    <meta
+      property="og:title"
+      content="Busbuskimki - Tarot ve Numeroloji Hizmetleri"
+    />
+    <meta
+      property="og:description"
+      content="Busbuskimki ile tarot ve numeroloji rehberliği alın."
+    />
+    <meta property="og:type" content="website" />
+    <!-- linkler-->
+    <link rel="stylesheet" href="assetshizmetler/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assetshizmetler/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <a href="Anasayfa.html"><span class="icon solid fa-home"></span></a>
+        </div>
+        <div class="logo">
+          <span class="icon fa-gem"></span>
+        </div>
+        <div class="content">
+          <div class="inner">
+            <h1 class="hesaplamalar-heading">HESAPLAMALAR</h1>
+
+            <style>
+              /* Varsayılan stil (mobilde kullanılacak) */
+              .hesaplamalar-heading {
+                color: #fa5300;
+                font-weight: bold;
+                font-family: "Gupter";
+                font-size: 20px; /* Mobil cihazlar için */
+              }
+
+              /* Masaüstü ekranlar için stil */
+              @media screen and (min-width: 768px) {
+                .hesaplamalar-heading {
+                  font-size: 32px; /* Masaüstü cihazlar için */
+                }
+              }
+            </style>
+            <p style="margin-bottom: 10px">Merhaba, ben Büşbüşkimki!</p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#calculate-life-path">Yaşam Yolu</a></li>
+            <li><a href="#calculate-kisisel-yil">Kişisel Yıl</a></li>
+            <li><a href="#calculate-kisisel-ay">Kişisel Ay</a></li>
+            <li><a href="#calculate-kisisel-gun">Kişisel Gün </a></li>
+            <li><a href="#calculate-gizli-tutku">Gizli Tutku </a></li>
+            <li></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li><a href="#calculate-ruh-istegi">Ruh İsteği</a></li>
+            <li><a href="#calculate-kisilik-numarasi">Kişilik</a></li>
+            <li><a href="#calculate-ifade-numarasi">İfade</a></li>
+            <li><a href="#calculate-karma-numarasi">Karma </a></li>
+            <li><a href="#calculate-alt-kisilik">Alt Kişilik </a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Main -->
+      <div id="main">
+        <!-- Karma Numarası -->
+        <article id="calculate-karma-numarasi">
+          <span class="image main"
+            ><img
+              src="calculates/phographys/hesaplamaKarma.jpg"
+              alt="Karma Numarası Görseli"
+          /></span>
+          <p class="calculate-aciklama">
+            Karma Numarası, numerolojide kişinin hayatında öğrenmesi gereken
+            dersleri ve geçmişten getirdiği karmaları gösterir. Bu sayı, kişinin
+            yaşamındaki zorluklar ve fırsatlar hakkında rehberlik sağlar.
+          </p>
+          <hr class="custom-hr" />
+          <form id="karmaNumarasiForm">
+            <label for="karma-name">İsminizi giriniz:</label>
+            <input type="text" id="karma-name" name="karma-name" required />
+            <label for="karma-surname">Soyisminizi giriniz:</label>
+            <input
+              type="text"
+              id="karma-surname"
+              name="karma-surname"
+              required
+            />
+            <button type="button" id="calculate-karma-numarasi-button">
+              Hesapla
+            </button>
+          </form>
+          <table id="karmaNumarasiTable" style="display: none">
+            <tr>
+              <td><strong>Karma Numaranız:</strong></td>
+              <td id="karmaNumarasiResult"></td>
+            </tr>
+            <tr>
+              <td><strong>Açıklama:</strong></td>
+              <td id="karmaNumarasiDescription"></td>
+            </tr>
+          </table>
+        </article>
+        <!-- Gizli Tutku Numarası -->
+        <article id="calculate-gizli-tutku">
+          <span class="image main"
+            ><img src="calculates/phographys/hesaplamagizliTutku.jpg" alt=""
+          /></span>
+          <p class="calculate-aciklama">
+            Gizli Tutku Numarası, kişisel yetenekleriniz ve içsel arzularınızın
+            en güçlü yönlerini ortaya çıkarır. Bu sayı, hayatınızdaki temel
+            motivasyonları ve içsel tutkularınızı yansıtır.
+          </p>
+          <hr class="custom-hr" />
+          <form id="gizliTutkuForm">
+            <label for="gizli-tutku-name">İsminizi giriniz:</label>
+            <input type="text" id="gizli-tutku-name" required />
+            <button type="button" id="calculate-gizli-tutku-button">
+              Hesapla
+            </button>
+          </form>
+          <table id="gizliTutkuTable" style="display: none">
+            <tr>
+              <td><strong>Gizli Tutku Numaranız:</strong></td>
+              <td id="gizliTutkuResult"></td>
+            </tr>
+            <tr>
+              <td><strong>Açıklama:</strong></td>
+              <td id="gizliTutkuDescription"></td>
+            </tr>
+          </table>
+        </article>
+        <!-- Alt Kişilik Numarası -->
+        <article id="calculate-alt-kisilik">
+          <span class="image main"
+            ><img src="calculates/phographys/hesaplamaaltKisilik.jpg" alt=""
+          /></span>
+          <p class="calculate-aciklama">
+            Alt Kişilik Numarası, isminizin ilk harfiyle belirlenen bir enerjiyi
+            yansıtır. Bu sayı, hayatınızdaki zorluklara karşı nasıl bir duruş
+            sergilediğinizi ve içsel gücünüzü ortaya çıkarır.
+          </p>
+          <hr class="custom-hr" />
+          <form id="altKisilikForm">
+            <label for="alt-kisilik-name">İsminizi giriniz:</label>
+            <input type="text" id="alt-kisilik-name" required />
+            <button type="button" id="calculate-alt-kisilik-button">
+              Hesapla
+            </button>
+          </form>
+          <table id="altKisilikTable" style="display: none">
+            <tr>
+              <td><strong>Alt Kişilik Numaranız:</strong></td>
+              <td id="altKisilikResult"></td>
+            </tr>
+            <tr>
+              <td><strong>Açıklama:</strong></td>
+              <td id="altKisilikDescription"></td>
+            </tr>
+          </table>
+        </article>
+        <!-- İfade Numarası -->
+        <article id="calculate-ifade-numarasi">
+          <span class="image main"
+            ><img src="calculates/phographys/hesaplamaIfade.jpg" alt=""
+          /></span>
+          <p class="calculate-aciklama">
+            İfade Numarası, kendinizi dünyaya nasıl ifade ettiğinizi ve
+            başkalarının sizi nasıl algıladığını belirler. Bu, dış görünüşünüzün
+            ve davranışlarınızın genel enerjisini temsil eder.
+          </p>
+          <hr class="custom-hr" />
+          <form id="ifadeNumarasiForm">
+            <label for="name">İsminizi giriniz:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="surname">Soyisminizi giriniz:</label>
+            <input type="text" id="surname" name="surname" required />
+            <button type="button" id="calculate-ifade-numarasi-button">
+              Hesapla
+            </button>
+          </form>
+          <table id="ifadeNumarasiTable" style="display: none">
+            <tr>
+              <td><strong>İfade Numaranız:</strong></td>
+              <td id="ifadeNumarasiResult"></td>
+            </tr>
+            <tr>
+              <td><strong>Açıklama:</strong></td>
+              <td id="ifadeNumarasiDescription"></td>
+            </tr>
+          </table>
+        </article>
+        <!-- Kişilik Numarası -->
+        <article id="calculate-kisilik-numarasi">
+          <span class="image main"
+            ><img src="calculates/phographys/hesaplamaKisilik.jpg" alt=""
+          /></span>
+          <p class="calculate-aciklama">
+            İsminizin ilk harfiyle hesaplanan numara, Kişilik Numarası
+            (Cornerstone Letter) olarak bilinir. Bu numara, kişinin dış dünyaya
+            nasıl bir ilk izlenim verdiğini ve genel yaklaşımını simgeler.
+            Numerolojide bu, kişinin yaşamındaki engellerle başa çıkma şekli ve
+            sorunları çözme yaklaşımı hakkında ipuçları verir.
+          </p>
+          <hr class="custom-hr" />
+          <form id="kisilikNumarasiForm">
+            <label for="kisilik-isim">İsminizi giriniz:</label>
+            <input type="text" id="kisilik-isim" required />
+            <button type="button" id="calculate-kisilik-numarasi-button">
+              Hesapla
+            </button>
+          </form>
+          <table id="kisilikNumarasiTable" style="display: none">
+            <tr>
+              <td><strong>Kişilik Numaranız:</strong></td>
+              <td id="kisilikNumarasiResult"></td>
+            </tr>
+            <tr>
+              <td><strong>Açıklama:</strong></td>
+              <td id="kisilikNumarasiDescription"></td>
+            </tr>
+          </table>
+        </article>
+        <!-- Ruh İsteği Numarası -->
+        <article id="calculate-ruh-istegi">
+          <span class="image main"
+            ><img src="calculates/phographys/hesaplamaruhIstegi.jpg" alt=""
+          /></span>
+          <p class="calculate-aciklama">
+            Ruh İsteği Numarası (Soul Urge Number), numerolojide kişinin derin
+            arzularını, içsel motivasyonlarını ve ruhsal ihtiyaçlarını temsil
+            eder. Bu sayı, kişinin özünde ne istediğini ve hayatta neyi
+            arzuladığını anlamaya yardımcı olur.
+          </p>
+          <hr class="custom-hr" />
+          <form id="ruhIsteğiForm">
+            <label for="ruh-istegi-isim">İsminizi giriniz:</label>
+            <input type="text" id="ruh-istegi-isim" required />
+            <label for="ruh-istegi-soyisim">Soyisminizi giriniz:</label>
+            <input type="text" id="ruh-istegi-soyisim" required />
+            <button type="button" id="calculate-ruh-istegi-button">
+              Hesapla
+            </button>
+          </form>
+          <table id="ruhIsteğiResult" style="display: none">
+            <tr>
+              <td><strong>Ruh İsteği Numaranız:</strong></td>
+              <td id="ruhIsteğiNumarasi"></td>
+            </tr>
+            <tr>
+              <td><strong>Açıklama:</strong></td>
+              <td id="ruhIsteğiDescription"></td>
+            </tr>
+          </table>
+        </article>
+        <!-- Yaşam Yolu Numarası -->
+        <article id="calculate-life-path">
+          <span class="image main"
+            ><img src="images/calculate-life-path.jpg" alt=""
+          /></span>
+          <p class="calculate-aciklama">
+            Yaşam yolu numarası, numerolojiye göre bir kişinin doğum tarihi
+            üzerinden hesaplanan ve hayat yolunu, kişilik özelliklerini,
+            potansiyelini, güçlü ve zayıf yönlerini anlamaya yardımcı olan bir
+            sayı olarak kabul edilir. Bu sayı, kişinin yaşamında
+            karşılaşabileceği zorluklar, fırsatlar ve genel yaşam dersleri
+            hakkında ipuçları verir.
+          </p>
+          <hr class="custom-hr" />
+          <form id="lifePathForm">
+            <label for="dob">Doğum tarihinizi giriniz:</label>
+            <input type="date" name="dob" id="dob" required />
+            <button type="button" id="calculateButton">Hesapla</button>
+          </form>
+          <table id="lifePathTable" style="display: none">
+            <tr>
+              <td><strong>Yaşam Yolu Numaranız:</strong></td>
+              <td id="lifePathResult"></td>
+            </tr>
+            <tr>
+              <td><strong>Açıklama:</strong></td>
+              <td id="lifePathDescription"></td>
+            </tr>
+          </table>
+        </article>
+        <!-- Kişisel Yıl -->
+        <article id="calculate-kisisel-yil">
+          <span class="image main"
+            ><img src="calculates/phographys/hesaplamakisiselYil.jpg" alt=""
+          /></span>
+          <p class="calculate-aciklama">
+            Numerolojide Kişisel Yıl, kişinin hayatındaki belirli bir yıl
+            boyunca karşılaşabileceği enerjileri ve temaları gösteren bir
+            rehberdir. Her kişisel yıl, 9 yıllık bir döngünün parçasıdır ve bu
+            döngünün her yılı, belirli bir enerji ve yaşam dersi taşır. Kişisel
+            yıl numaranız, o yıl boyunca hangi fırsatlarla, zorluklarla ve
+            büyüme alanlarıyla karşılaşabileceğinizi belirler. Bu sayede,
+            hayatınızdaki büyük değişimleri ve olayları daha iyi anlamanıza
+            yardımcı olur.
+          </p>
+          <hr class="custom-hr" />
+          <form id="kisiselYilCalculationForm">
+            <label for="dobKisiselYil">Doğum tarihinizi giriniz:</label>
+            <input
+              type="date"
+              name="dobKisiselYil"
+              id="dobKisiselYil"
+              required
+            />
+            <button type="button" id="calculateKisiselYilButton">
+              Hesapla
+            </button>
+          </form>
+          <table
+            class="calculateKisiselYilTable"
+            id="kisiselYilTable"
+            style="display: none"
+          >
+            <tr>
+              <td><strong>Kişisel Yıl Numarası:</strong></td>
+              <td id="kisiselYilResult"></td>
+            </tr>
+            <tr>
+              <td><strong>Açıklama:</strong></td>
+              <td id="kisiselYilDescription"></td>
+            </tr>
+          </table>
+        </article>
+        <!-- Kişisel Ay -->
+        <article id="calculate-kisisel-ay">
+          <span class="image main"
+            ><img src="calculates/phographys/hesaplamakisiselAy.jpg" alt=""
+          /></span>
+          <p class="calculate-aciklama">
+            Kişisel Ay, numerolojide, kişinin belirli bir ay boyunca
+            karşılaşabileceği enerjileri ve temaları anlamak için kullanılan bir
+            kavramdır. Numerolojide her yıl 9 yıllık bir döngü içinde
+            değerlendirilir ve her yılın kendi enerjisi vardır. Aynı şekilde,
+            her yıl içinde de 12 ay vardır ve her ayın enerjisi, kişisel yıla
+            bağlı olarak hesaplanır.
+          </p>
+          <hr class="custom-hr" />
+          <form id="kisiselAyForm">
+            <label for="dobKisiselAy">Doğum tarihinizi giriniz:</label>
+            <input type="date" id="dobKisiselAy" required />
+            <button type="button" id="calculateKisiselAyButton">Hesapla</button>
+          </form>
+          <table id="kisiselAyTable" style="display: none">
+            <tr>
+              <td><strong>Kişisel Ay Numaranız:</strong></td>
+              <td id="kisiselAyResult"></td>
+            </tr>
+            <tr>
+              <td><strong>Açıklama:</strong></td>
+              <td id="kisiselAyDescription"></td>
+            </tr>
+          </table>
+        </article>
+        <!-- Kişisel Gün -->
+        <article id="calculate-kisisel-gun">
+          <span class="image main"
+            ><img src="calculates/phographys/hesaplamakisiselGun.jpg" alt=""
+          /></span>
+          <p class="calculate-aciklama">
+            Kişisel Gün Numarası, numerolojideki temel hesaplamalardan biridir
+            ve kişinin günlük enerjisini ve ruh halini anlamaya yönelik bir
+            sayıdır. Kişisel gün numarası, kişinin yaşam yolu numarasının günlük
+            etkisini göstermek için kullanılır.
+          </p>
+          <hr class="custom-hr" />
+          <form id="infoForm">
+            <label for="dob">Doğum tarihi giriniz:</label>
+            <input
+              type="date"
+              id="birthdate1"
+              name="birthdate"
+              style="color: black"
+              required
+            />
+            <input type="submit" class="" value="Hesapla" />
+          </form>
+          <p id="personal-day-description"></p>
+          <img
+            id="personal-day-image"
+            src=""
+            alt="Kişisel Gün Resmi"
+            style="display: none"
+          />
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">
+          &copy; Busbuskimki. Tüm hakları saklıdır. Dimension by HTML5 UP and
+          Tugiart
+        </p>
+        <p style="font-size: 14px; text-align: center">
+          Birleşik Krallık'ta yürürlüğe giren 2018 tarihli Data Protection Act
+          (Kişisel Verileri Koruma Yasası) doğrultusunda<br />
+          Information Commissioner’s Office (Bilgi Komisyonu Ofisi)'ne
+          <a href="https://ico.org.uk/ESDWebPages/Entry/ZB735403">ZB735403</a>
+          referans numarası ile kayıtlıyız.
+        </p>
+      </footer>
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assetshizmetler/js/jquery.min.js"></script>
+    <script src="assetshizmetler/js/browser.min.js"></script>
+    <script src="assetshizmetler/js/breakpoints.min.js"></script>
+    <script src="assetshizmetler/js/util.js"></script>
+    <script src="assetshizmetler/js/main.js"></script>
+
+    <!-- Hesaplama Scriptleri -->
+    <script src="./calculates/calculate-life-path.js" defer></script>
+    <script src="./calculates/calculate-ifade-numarasi.js" defer></script>
+    <script src="./calculates/calculate-ruh-istegi.js" defer></script>
+    <script src="./calculates/calculate-karma-numarasi.js" defer></script>
+    <script src="./calculates/calculate-alt-kisilik-numarasi.js" defer></script>
+    <script src="./calculates/calculate-gizli-tutku-numarasi.js" defer></script>
+    <script src="./calculates/calculate-kisisel-yil.js" defer></script>
+    <script src="./calculates/calculate-kisisel-ay.js" defer></script>
+    <script src="./calculates/calculate-kisilik-numarasi.js" defer></script>
+    <script src="kisisel-gun/kisisel-gun.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,199 @@
+
+		
+		
+					</article>
+					<!--Dışa Vurum-->
+					<article id="calculate-disa-vurum">
+						<span class="image main"><img src="images/disavurumhesaplama.jpg" alt="" /></span>
+						<p>Dışa Vurum Numarası (ya da bazen İfade Numarası olarak da adlandırılır), numerolojide kişinin dış dünyaya nasıl bir imaj sunduğunu ve kendini başkalarına nasıl ifade ettiğini gösteren bir sayıdır. Bu numara, bir kişinin dışarıdan nasıl göründüğünü, insanların onu nasıl algıladığını ve sosyal çevresinde nasıl bir izlenim bıraktığını yansıtır.
+		
+							
+							</p>
+						<hr class="custom-hr">
+						
+						<form id="calculateDisaVurum">
+							<div class="field">
+								<label for="name">İsim:</label>
+								<input type="text" id="name" name="name" required>
+							</div>
+							<div class="field">
+								<label for="surname">Soyisim:</label>
+								<input type="text" id="surname" name="surname" required>
+							</div>
+							<div class="actions">
+								<br><button type="button" id="calculate-disa-vurum-button">Hesapla</button>
+							</div>
+						</form>
+						
+						<p id="expressionResult" style="display: none;"></p>
+		
+		
+					</article>
+		
+					<!-- Kisisel Gün -->
+					<article id="calculate-kisisel-gun">
+						<span class="image main"><img src="images/kisiselyilhesaplama.jpg" alt="" /></span>
+						<p>Kişisel gün numarası, numerolojideki temel hesaplamalardan biridir ve kişinin günlük enerjisini ve ruh halini anlamaya yönelik bir sayıdır. Kişisel gün numarası, kişinin yaşam yolu numarasının (yaşam amacı veya genel enerjisini gösteren sayı) günlük etkisini göstermek için kullanılır.</p>
+						<hr class="custom-hr">
+		<div>
+			<div>
+							<form id="infoForm">
+								<label for="dob">Doğum tarihi giriniz:</label>
+								<input type="date" id="birthdate1" name="birthdate" style="color:black;" required>
+								<br><br>
+								<input type="submit" class="" value="Hesapla">
+							</form>
+					
+								<p id="personal-day-description"></p>
+								<img id="personal-day-image" src="" alt="Kişisel Gün Resmi" style="display: none;">
+							</div>
+						</div>
+					</article>
+					<article id="calculate-evrensel-yıl">
+						<span class="image main"><img src="images/kisiselyilhesaplama.jpg" alt="" /></span>
+						<p>Kişisel gün numarası, numerolojideki temel hesaplamalardan biridir ve kişinin günlük enerjisini ve ruh halini anlamaya yönelik bir sayıdır. Kişisel gün numarası, kişinin yaşam yolu numarasının (yaşam amacı veya genel enerjisini gösteren sayı) günlük etkisini göstermek için kullanılır.</p>
+						<hr class="custom-hr">
+		<div>
+			<div>
+							<form id="infoForm">
+								<label for="dob">Doğum tarihi giriniz:</label>
+								<input type="date" id="birthdate1" name="birthdate" style="color:black;" required>
+								<br><br>
+								<input type="submit" class="" value="Hesapla">
+							</form>
+					
+								<p id="personal-day-description"></p>
+								<img id="personal-day-image" src="" alt="Kişisel Gün Resmi" style="display: none;">
+							</div>
+						</div>
+					</article>
+						<!-- bilinçaltı -->
+		
+					<article id="calculate-bilincalti-rakami">
+						<h2 class="major"></h2>
+						<span class="image main"><img src="images/bilinçaltihesaplama.jpg" alt="" /></span>
+						<p>Bilinçaltı rakamı, bireyin derinlerde yatan, yaşamını etkileyen içsel güçleri ve eğilimleri ifade eder. Bu rakamı doğum tarihiniz üzerinden hesaplayabilirsiniz.</p>
+						<hr class="custom-hr">
+						<form id="bilincaltiForm">
+							<div class="fields">
+								<div class="field">
+									<label for="birthdate">Doğum tarihinizi giriniz:</label>
+									<input type="date" name="birthdate" id="birthdate" required />
+								</div>
+							</div>
+							<ul class="actions">
+								<li><input type="button" id="calculate-bilincalti-rakami-button" value="Hesapla"  /></li>
+							</ul>
+						</form>
+						<p id="calculate-bilincalti-rakami-result" style="display: none;"></p>
+					</article>
+					<!-- Tavır Numarası -->
+					<article id="calculate-tavir">
+						<span class="image main"><img src="images/calculate-life-path.jpg" alt="" /></span>
+						<p class="calculate-aciklama">Yaşam yolu numarası, numerolojiye göre bir kişinin doğum tarihi üzerinden hesaplanan ve hayat yolunu, kişilik özelliklerini, potansiyelini, güçlü ve zayıf yönlerini anlamaya yardımcı olan bir sayı olarak kabul edilir. Bu sayı, kişinin yaşamında karşılaşabileceği zorluklar, fırsatlar ve genel yaşam dersleri hakkında ipuçları verir.</p>
+		
+						<hr class="custom-hr">
+		
+						<form id="tavirForm">
+							<div>
+								<div>
+							<label for="day">Gün Giriniz:</label>
+							<input type="number" id="day" name="day" required>
+							</div>
+							<div>
+							<label for="month">Ay Giriniz:</label>
+							<input type="number" id="month" name="month" required>
+						</div>
+						</div>
+							<button type="button" id="calculate-tavir-button">Hesapla</button>
+						</form>
+						<p id="tavirResult" style="display: none;"></p>
+					</article>
+		<!-- Kişisel Yıl -->
+		<article id="calculate-kisisel-yil">
+			<span class="image main"><img src="calculates/phographys/hesaplamakisiselYil.jpg" alt="" /></span>
+			<p class="calculate-aciklama">Numerolojide Kişisel Yıl, kişinin hayatındaki belirli bir yıl boyunca karşılaşabileceği enerjileri ve temaları gösteren bir rehberdir. Her kişisel yıl, 9 yıllık bir döngünün parçasıdır ve bu döngünün her yılı, belirli bir enerji ve yaşam dersi taşır. Kişisel yıl numaranız, o yıl boyunca hangi fırsatlarla, zorluklarla ve büyüme alanlarıyla karşılaşabileceğinizi belirler. Bu sayede, hayatınızdaki büyük değişimleri ve olayları daha iyi anlamanıza yardımcı olur.</p>
+		
+			
+		
+			<form id="kisiselYilCalculationForm">
+				<hr class="custom-hr">
+				<label for="dobKisiselYil">Doğum tarihinizi giriniz:</label>
+				<input type="date" name="dobKisiselYil" id="dobKisiselYil" required /><br><br>
+				<button type="button" id="calculateKisiselYilButton">Hesapla</button>
+			</form>
+		
+			<table class="calculateKisiselYilTable" id="kisiselYilTable" style="display: none;">
+				<tr>
+					<td><strong>Kişisel Yılınız:</strong></td>
+					<td id="kisiselYilResult"></td>
+				</tr>
+				<tr>
+					<td><strong>Açıklama:</strong></td>
+					<td id="kisiselYilDescription"></td>
+				</tr>
+			</table>
+		</article>
+		
+					<!-- Gizli Benlik -->
+					<article id="calculate-gizli-benlik">
+						<span class="image main"><img src="images/calculate-life-path.jpg" alt="" /></span>
+						<p class="calculate-aciklama">Yaşam yolu numarası, numerolojiye göre bir kişinin doğum tarihi üzerinden hesaplanan ve hayat yolunu, kişilik özelliklerini, potansiyelini, güçlü ve zayıf yönlerini anlamaya yardımcı olan bir sayı olarak kabul edilir. Bu sayı, kişinin yaşamında karşılaşabileceği zorluklar, fırsatlar ve genel yaşam dersleri hakkında ipuçları verir.</p>
+		
+						<hr class="custom-hr">
+						<div>
+						<form id="gizliBenlikForm">
+							<label for="isim">İsim:</label>
+							<input type="text" id="isim" name="isim" required><br>
+					
+							<label for="soyisim">Soyisim:</label>
+							<input type="text" id="soyisim" name="soyisim" required><br>
+					
+							<button type="button" id="calculate-gizli-benlik-button">Hesapla</button>
+						</form>
+					</div>
+						
+						<p id="gizliBenlikResult" style="display: none;"></p>
+					</article>
+		<!-- Ruh İsteği -->
+		<article id="calculate-ruh-istegi">
+			<span class="image main"><img src="images/calculate-life-path.jpg" alt="" /></span>
+			<p class="calculate-aciklama">Ruh İsteği Numarası, kişinin ruhsal ihtiyaçlarını ve derin arzularını temsil eder.</p>	<form id="ruhIsteğiForm">
+				<label for="ruh-istegi-isim">İsim:</label>
+				<input type="text" id="ruh-istegi-isim" name="isim" required>
+				<label for="ruh-istegi-soyisim">Soyisim:</label>
+				<input type="text" id="ruh-istegi-soyisim" name="soyisim" required><br>
+				<button type="button" id="calculate-ruh-istegi-button">Hesapla</button>
+			</form>
+			<p id="ruhIsteğiResult" style="display: none;"></p>
+		</article>
+					
+		
+						
+						<!-- Kişisel Yıl -->
+						<article id="calculate-kisisel">
+							<span class="image main"><img src="images/calculate-life-path.jpg" alt="" /></span>
+							<p class="calculate-aciklama">Yaşam yolu numarası, numerolojiye göre bir kişinin doğum tarihi üzerinden hesaplanan ve hayat yolunu, kişilik özelliklerini, potansiyelini, güçlü ve zayıf yönlerini anlamaya yardımcı olan bir sayı olarak kabul edilir. Bu sayı, kişinin yaşamında karşılaşabileceği zorluklar, fırsatlar ve genel yaşam dersleri hakkında ipuçları verir.</p>
+		
+							<hr class="custom-hr">
+							<form id="evrenselYilForm">
+								
+								<label for="day">Gün Giriniz:</label>
+								<input type="number" id="day" name="day" min="1" max="31" required>
+								<label for="month">Ay Giriniz:</label>
+								<input type="number" id="month" name="month" min="1" max="12" required>
+								<label for="year">Yıl Giriniz:</label>
+								<input type="number" id="year" name="year" min="1901" max="2099" required>
+								
+								<button type="button" id="calculate-evrensel-yil-button">Hesapla</button>
+							</form>
+							<div id="evrenselYilResult" style="display: none;"></div><br>
+							<div id="evrenselAyResult" style="display: none;"></div><br>
+							<div id="evreselGunResult" style="display: none;"></div><br>
+						</article>
+		
+						<!-- Denge Numarası -->
+		
+						
+					
+						<!-- JavaScript for balance number calculation -->

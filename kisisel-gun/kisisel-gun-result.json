@@ -1,0 +1,38 @@
+{
+    "1": {
+        "description": "Kişisel Gün 1 - Yeni başlangıçlar ve liderlik zamanı.",
+        "image_url": "kisisel-gun/images/1.jpg"
+    },
+    "2": {
+        "description": "Kişisel Gün 2 - Denge ve işbirliği zamanı.",
+        "image_url": "kisisel-gun/images/2.jpg"
+    },
+    "3": {
+        "description": "Kişisel Gün 3 - İletişim ve yaratıcılık dönemi.",
+        "image_url": "kisisel-gun/images/3.jpg"
+    },
+    "4": {
+        "description": "Kişisel Gün 4 - Disiplin ve planlama zamanı.",
+        "image_url": "kisisel-gun/images/4.jpg"
+    },
+    "5": {
+        "description": "Kişisel Gün 5 - Değişim ve özgürlük zamanı.",
+        "image_url": "kisisel-gun/images/5.jpg"
+    },
+    "6": {
+        "description": "Kişisel Gün 6 - Aile ve sevgi dolu ilişkiler zamanı.",
+        "image_url": "kisisel-gun/images/6.jpg"
+    },
+    "7": {
+        "description": "Kişisel Gün 7 - İçsel keşif ve spiritüel farkındalık dönemi.",
+        "image_url": "kisisel-gun/images/7.jpg"
+    },
+    "8": {
+        "description": "Kişisel Gün 8 - Güç, başarı ve maddi kazanç zamanı.",
+        "image_url": "kisisel-gun/images/8.jpg"
+    },
+    "9": {
+        "description": "Kişisel Gün 9 - Tamamlama, bağışlama ve evrensel sevgi dönemi.",
+        "image_url": "kisisel-gun/images/9.jpg"
+    }
+}
